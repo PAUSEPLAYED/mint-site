@@ -23,7 +23,7 @@
     <meta property="og:description" content="PEACH Figurine 3D WebSite" />
     <meta property="og:image" content="https://rebrand.ly/mintpeach1" />
 
-<!--     <script type="module" src="./main.js"></script> -->
+    <!--     <script type="module" src="./main.js"></script> -->
     
     <link rel="icon" type="image/png" sizes="32x32" href="../peach.png">
 
@@ -35,16 +35,34 @@
 
 
     <link href='https://fonts.googleapis.com/css?family=Hepta Slab' rel='stylesheet'>
-  <script type="module" crossorigin src="../assets/peach2-4491cd20.js"></script>
+
+  <script type="module" crossorigin src="../assets/peach2-bbb007fb.js"></script>
   <link rel="modulepreload" crossorigin href="../assets/modulepreload-polyfill-3cfb730f.js">
-  <link rel="modulepreload" crossorigin href="../assets/runtime-f36e370f.js">
-  <link rel="stylesheet" href="../assets/runtime-c09ce58f.css">
+  <link rel="modulepreload" crossorigin href="../assets/runtime-8b21c762.js">
+  <link rel="stylesheet" href="../assets/runtime-d918fa5b.css">
 </head>
 
 <body>
 
     <div id="preloader">
-        <div class="spinner-grow text-danger"></div>
+        <div class="spinner-grow text-light"></div>
+    </div>
+
+    <div id="bcontainer">
+        <div class="barcontainer">
+            <div class="bar" style="height:0%"></div>
+        </div>
+        <div>
+            <p class="p1"><span style="color:#000">Mint </span>Goal<br> 0 of 15 <span style="color:#333 " >(3D Metadata)</span></p>
+        </div>
+        
+    </div>
+
+    <div id="tcontainer">
+        <div>
+            <p><span class="p2" style="color:#000">0.0269</span><span class="p3" style="color:#000">Ξ</span></p>
+        </div>
+        
     </div>
 
     <canvas id="canvas3d"></canvas>
@@ -61,17 +79,20 @@
         </svg>
     </div>
 
+    
 
 
-<div id="link-container">
-    <a href="../" class="homebutton">
-        HOME
-    </a>
-    <a href="../peach1/" class="homebutton">
-        BACK
-    </a>
-<!-- <a class="auction-btn"></a> -->
-</div>
+
+    <div id="link-container">
+        <a href="../" class="homebutton">
+            HOME
+        </a>
+        <a href="../peach1/" class="homebutton">
+            BACK
+        </a>
+        <!-- <a class="auction-btn"></a> -->
+    </div>
+
 
 </body>
 
