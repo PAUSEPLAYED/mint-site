@@ -16,8 +16,7 @@ const e = document.getElementById("canvas3d"),
         t.style.display = "flex", e.addEventListener("pointerdown", n), 
         e.addEventListener("pointerup", n), s.style.display = "none", l.style.display = "flex", c.style.display = "flex", i.style.display = "flex"
     };
-// d.load("../scene3.splinecode", {
-    d.load("https://prod.spline.design/8cdlMnjGSo1AQ-30/scene.splinecode", {
-    credentials: "include",
+// d.load("../splinecode", {
+    d.load("../scene3.splinecode", {
     mode: "no-cors"
 }).then(a);
